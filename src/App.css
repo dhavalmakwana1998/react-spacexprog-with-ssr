@@ -47,6 +47,30 @@
 .filter-btn li {
   width: 50%;
 }
+.sidebar {
+  overflow-y: scroll;
+  position: sticky;
+  height: calc(100vh - 100px);
+  top: 80px;
+}
+.sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.sidebar::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 .backToTop {
   display: none;
@@ -66,4 +90,13 @@
 
 .backToTop:hover {
   background-color: #555;
+}
+header {
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.247);
+  position: sticky !important;
+  top: 0 !important;
+  background-color: #fff;
+  z-index: 99999;
+  display: flex;
+  justify-content: center !important;
 }

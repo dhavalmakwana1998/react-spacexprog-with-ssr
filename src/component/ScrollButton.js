@@ -22,14 +22,12 @@ const ScrollButton = () => {
   window.addEventListener("scroll", toggleVisible);
 
   return (
-    <button>
-      <h6
-        onClick={scrollToTop}
-        className="p-3 bg-theme backToTop"
-        style={{ display: visible ? "inline" : "none" }}
-      >
-        &#8593;
-      </h6>
+    <button
+      onClick={scrollToTop}
+      className="p-3 bg-theme backToTop"
+      style={{ display: visible ? "inline" : "none" }}
+    >
+      <i className="fa fa-arrow-up"></i>
     </button>
   );
 };
