@@ -6,7 +6,6 @@ import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 import Header from "./component/Header";
 import FilterRadioButton from "./component/FilterRadioButton";
 import Home from "./component/Home";
-import { Button } from "bootstrap";
 
 function App() {
   const [mission, setMission] = useState();
@@ -145,9 +144,9 @@ function App() {
                 <Route
                   render={() => {
                     <h1 className="text-center">404 : Not fount</h1>;
-                    <Button className="btn btn-success">
+                    <button className="btn btn-success">
                       <Link to={"/"}>Go to home</Link>
-                    </Button>;
+                    </button>;
                   }}
                 />
               </Switch>

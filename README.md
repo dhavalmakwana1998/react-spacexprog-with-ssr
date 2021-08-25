@@ -17,5 +17,4 @@ Follow the steps:
 2. git clone https://github.com/dhavalmakwana1998/react-spacexprog-with-ssr.git
 3. cd react-spacexprog-with-ssr
 4. git pull
-5. npm run build
-6. node server/index.js
+5. npm run dev
