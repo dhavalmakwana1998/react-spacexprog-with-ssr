@@ -47,3 +47,23 @@
 .filter-btn li {
   width: 50%;
 }
+
+.backToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #005796;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.backToTop:hover {
+  background-color: #555;
+}
